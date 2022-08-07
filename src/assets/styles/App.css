@@ -9,7 +9,7 @@
 }
 
 .container {
-  width: 35%;
+  width: 40%;
 }
 
 .header {
@@ -24,4 +24,85 @@
 .header .light-dark{
   font-weight: 600;
   font-size: 1em;
+}
+
+
+.profile-container {
+  width:100%;
+  box-shadow: var(--lm-shadow);
+  display: flex;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  justify-content: center;
+  background-color: var(--lm-bg-content);
+}
+
+
+.left {
+
+}
+
+.right {
+  flex: 3;
+  margin: 0 1rem;
+}
+
+.left img {
+  border-radius: 50%;
+  flex: 1;
+  height: 117px;
+  width: 117px;
+}
+
+
+.general-info {
+  display: flex;
+  justify-content: space-between;
+}
+.general-info .user {
+  display: flex;
+  flex-direction: column;
+}
+.general-info .user h2 {
+  font-weight: bold;
+  font-size: 1em;
+}
+.general-info .user span {
+  font-size: 0.8em;
+  color: var(--btn);
+}
+
+.bio {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  line-height: 25px;
+  opacity: 0.75;
+}
+
+/* Begin of badge styling */
+.badges {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--lm-bg);
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+
+.badge .badge-name {
+  font-size: 0.7rem;
+}
+
+.badge .badge-value {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
 }

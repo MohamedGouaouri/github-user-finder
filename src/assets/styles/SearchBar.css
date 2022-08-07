@@ -7,7 +7,8 @@
     align-items: center;
     border-radius: 1rem;
     padding: 1rem;
-    /*background-color: red;*/
+    background-color: var(--lm-bg-content);
+
 }
 .search-icon {
     color: var(--btn);
