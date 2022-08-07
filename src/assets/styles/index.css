@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  --lm-bg: #f6f8ff;
+  --lm-bg-content: #fefefe;
+  --lm-text: #4b6a9b;
+  --lm-text-alt: #2b3442;
+  --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  --lm-shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
+  --lm-icon-bg: brightness(100%);
+  /* Btn */
+  --btn: #0079ff;
+  --btn-hover: #60abff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-color: var(--lm-bg);
+  font-size: 13px;
+  color: var(--lm-text);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+button, input[type="submit"], input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}

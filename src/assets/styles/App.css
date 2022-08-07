@@ -1,0 +1,27 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  width: 35%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .app-name {
+  font-weight: bold;
+  font-size: 2em;
+}
+.header .light-dark{
+  font-weight: 600;
+  font-size: 1em;
+}
